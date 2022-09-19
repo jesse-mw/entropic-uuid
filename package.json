@@ -1,0 +1,23 @@
+{
+  "name": "entropic-uuid",
+  "version": "1.0.0",
+  "description": "Good chaos, #936.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessewarren-aa/entropic-uuid.git"
+  },
+  "keywords": [
+    "entropy",
+    "uuid"
+  ],
+  "author": "https://www.linkedin.com/in/jesse--warren/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessewarren-aa/entropic-uuid/issues"
+  },
+  "homepage": "https://github.com/jessewarren-aa/entropic-uuid#readme"
+}
