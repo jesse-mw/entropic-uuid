@@ -1,6 +1,7 @@
 {
   "name": "entropic-uuid",
-  "version": "1.0.1",
+  "version": "1.0.3",
+  "type":"module",
   "description": "Good chaos, #936.",
   "main": "index.js",
   "scripts": {
