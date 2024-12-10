@@ -32,7 +32,7 @@ npm install entropic-uuid
 ```
 
 ```js
-import generateUUID from "entropic-uuid";
+import generateEntropicPhrase from "entropic-uuid";
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
