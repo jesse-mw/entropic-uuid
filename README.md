@@ -13,47 +13,59 @@
 
   <p align="center">
     Generate word-based UUIDs<br />
-    Currently uses the 3,000 most common English words, so... no promises for the content
+    Currently uses the 2,700 most common English words, so... no promises for the content
     <br />
-    <a href="https://github.com/jessewarren-aa/entropic-uuid">View Demo (coming soon)</a>
-    ·
     <a href="https://github.com/jessewarren-aa/entropic-uuid/issues">Report Bug</a>
   </p>
 </div>
 
 ### Prerequisites
 
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
 
-   ```sh
-   npm install entropic-uuid
-   ```
+```sh
+npm install entropic-uuid
+```
 
-   ```js
-   import generateUUID from "entropic-uuid"
-   ```
+```js
+import generateUUID from "entropic-uuid";
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
-  * Generate UUID
-  ```js
-  import generateUUID from "entropic-uuid"
-  
-  // default UUID length is 4
-  const defaultUUID = generateUUID();
-  // 'etc-ignore-field-invite'
-  
-  const customLengthUUID = generateUUID(7);
-  // 'criticism-mental-practical-thing-member-architect-promote'
-  
-  ```
+- Generate Entropic Phrase
+
+```js
+import generateEntropicPhrase from "entropic-uuid";
+
+// default phrase length is 4
+const defaultPhrase = generateEntropicPhrase();
+// 'etc-ignore-field-invite'
+
+const customLengthPhrase = generateEntropicPhrase(7);
+// 'criticism-mental-practical-thing-member-architect-promote'
+```
+
+- Generate UUID4 & Entropic Phrase
+
+```js
+import { generateUUIDPhrase } from "entropic-uuid";
+
+// default phrase length for UUID phrases is 3
+const defaultUUIDPhrase = generateUUIDPhrase();
+// '42b3b726-3a70-4493-92d7-d670d89a5538-absolutely-silver-last'
+
+const customLengthUUIDPhrase = generateUUIDPhrase(5);
+// '5db647a2-d8f5-43fb-a3a4-709969e49c35-campaign-terms-yet-model-championship'
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
