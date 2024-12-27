@@ -2734,8 +2734,8 @@ function generateUUID4() {
 }
 
 export function generateUUIDPhrase(length = 3) {
-  uuid4 = generateUUID4();
-  phrase = generateEntropicPhrase(length);
+  const uuid4 = generateUUID4();
+  const phrase = generateEntropicPhrase(length);
   return `${uuid4}-${phrase}`;
 }
 
